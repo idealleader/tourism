@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+$background: #111;
+$border-radius: 10px;
+$gradient: linear-gradient(
+  to right bottom,
+  rgba(#44068a, 0.6),
+  rgba(#0eb933, 0.7)
+);
+
+:root {
+  --font-size: 16px;
+  --color-primary: #f6f7fb;
+  --color-secondary: #111;
+  --color-tertiary: #fdc500;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@import "./nav";
+@import "./typography";
+@import "./utils";
+@import "./animation";
+@import "./header";

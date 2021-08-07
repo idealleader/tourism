@@ -1,0 +1,40 @@
+// joyini belgilaymiz
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); //markazga keltirib beradis
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 0.7rem 3rem;
+  border: 0;
+  outline: none;
+  border-radius: $border-radius;
+  background-color: var(--color-tertiary);
+  cursor: pointer;
+}
+// mt margin top
+// mb margin bottom
+// sm small
+// md medium
+//
+.mt-sm {
+  margin-top: 1rem;
+}
+
+.mt-md {
+  margin-top: 2rem;
+}
+
+.mb-sm {
+  margin-bottom: 1rem;
+}
+.mb-md {
+  margin-bottom: 2rem;
+}
+
+.header_content {
+  text-align: center;
+}
